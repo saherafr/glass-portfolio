@@ -35,7 +35,7 @@ const About = () => {
                     <p>
                         Hi, I’m Saher — a computer science student with a love for solving real-world problems through technology. I’ve created tools like a voice-based AI interview coach and a student support chatbot to help others access opportunities that I once struggled to find. Most of what I’ve built, I taught myself — diving deep into frameworks, APIs, and databases with nothing but curiosity and late-night determination.
                         <br /><br />
-                        But this journey hasn’t been easy. In my second and third year, I faced major health challenges that impacted every part of my life — academics, finances, even friendships. I learned how isolating university can feel when you’re silently trying to hold everything together. That experience shaped who I am: someone who builds because she understands the pain points firsthand.
+                        But this journey hasn’t been easy. I learned how isolating university can feel when you’re silently trying to hold everything together. That experience shaped who I am: someone who builds because she understands the pain points firsthand.
                         <br /><br />
                         Beyond the code, I care deeply about growth — not just professionally, but personally. I lift weights. I track progress. I journal. I believe showing up every day — whether to the gym or the keyboard — is how real transformation happens. I'm not someone who gives up easily. If it’s broken, I’ll fix it. If it’s hard, I’ll learn it.
                         <br /><br />
