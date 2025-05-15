@@ -26,10 +26,10 @@ const data = [
     {
         id: 3,
         img: IMG3,
-        title: "EcoCart — Carbon Footprint Estimator",
-        desc: "A lightweight AWS-powered tool that estimates the carbon impact of online purchases. Built to promote eco-conscious shopping.",
-        stack: "Python · AWS Lambda · S3 · SNS",
-        github: "https://github.com/saherafr/ecocart",
+        title: "IntelliDoc Engine",
+        desc: "A scalable, AI-powered document analysis backend that extracts text, answers questions, and identifies key entities from PDFs and scanned files. Built using FastAPI, Transformers, AWS S3, and Docker.",
+        stack: "FastAPI · HuggingFace Transformers · AWS S3 · Docker",
+        github: "https://github.com/saherafr/intelli-doc-engine",
         demo: ""
     }
 ];
