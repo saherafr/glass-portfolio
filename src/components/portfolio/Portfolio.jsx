@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.JPG";
+import IMG3 from "../../assets/portfolio3.jpg"; // Use .jpg for consistent formatting
 
 const data = [
     {
@@ -36,22 +36,33 @@ const data = [
 
 const Portfolio = () => {
     return (
-        <section id='portfolio'>
+        <section id="portfolio">
             <h5>Things I’ve Built</h5>
             <h2>Featured Projects</h2>
 
-            <div className='portfolio__container'>
+            <div className="portfolio__container">
                 {data.map(({ id, img, title, desc, stack, github, demo }) => (
-                    <article key={id} className='portfolio__item'>
-                        <div className='portfolio__item-img'>
+                    <article key={id} className="portfolio__item">
+                        <div className="portfolio__item-img">
                             <img src={img} alt={title} />
                         </div>
                         <h3><b>{title}</b></h3>
                         <p><i>{desc}</i></p>
                         <small><b>Tech Stack:</b> {stack}</small>
-                        <div className='portfolio__item-cta'>
-                            <a href={github} className='btn' target='_blank' rel='noreferrer'>GitHub</a>
-                            {demo && <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>}
+                        <div className="portfolio__item-cta">
+                            <a href={github} className="btn" target="_blank" rel="noreferrer">
+                                GitHub
+                            </a>
+                            {demo && (
+                                <a
+                                    href={demo}
+                                    className="btn btn-primary"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Live Demo
+                                </a>
+                            )}
                         </div>
                     </article>
                 ))}
